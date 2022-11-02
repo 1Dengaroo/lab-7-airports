@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Lab 7: Airport Connections</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Airport Connections</h1>
+      <form>
+        <label class="radio">
+          <input type="radio" name="selector" value="force" checked />Force
+        </label>
+        <label class="radio">
+          <input type="radio" name="selector" value="map" />Map
+        </label>
+      </form>
+      <div class="chart"></div>
+      <div class="tooltip"></div>
+    </div>
+  </body>
+</html>
